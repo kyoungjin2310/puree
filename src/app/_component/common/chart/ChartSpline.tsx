@@ -17,7 +17,7 @@ const ChartSpline = () => {
     ],
   });
 
-  const option: ApexOptions = {
+  const [option, setOption] = useState<ApexOptions>({
     chart: {
       height: 350,
       type: "area",
@@ -45,7 +45,7 @@ const ChartSpline = () => {
         format: "dd/MM/yy HH:mm",
       },
     },
-  };
+  });
 
   return (
     <div>
