@@ -1,3 +1,9 @@
+import ChartSpline from "./common/chart/ChartSpline";
+
 export default function Main() {
-  return <div>main</div>;
+  return (
+    <div>
+      <ChartSpline />
+    </div>
+  );
 }
